@@ -10,8 +10,8 @@ import logging
 # ============================================
 # SOZLAMALAR (o‘zgartirish shart emas)
 # ============================================
-TOKEN = os.environ.get('TOKEN', '8742761350:AAH5wjasaAZkYsOxvPyHC1Nh-MLRB0GfXho')
-ADMIN_IDS = [int(os.environ.get('ADMIN_ID', '7991544389'))]
+TOKEN = os.environ.get('8742761350:AAH5wjasaAZkYsOxvPyHC1Nh-MLRB0GfXho')
+ADMIN_IDS = [int(os.environ.get('7991544389'))]
 
 bot = telebot.TeleBot(TOKEN)
 
